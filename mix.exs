@@ -4,12 +4,12 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.5",
+      version: "0.1.6",
       package: package(),
       description: "MainInABox administration client for elixir",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
-      source_url: "https://github.com/ourway/mail_in_a_box"
+      source_url: "https://github.com/ourway/mail_in_a_box",
       deps: deps()
     ]
   end
