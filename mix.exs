@@ -21,7 +21,7 @@ defmodule MailInABox.MixProject do
       maintainers: ["Farsheed Ashouri"],
       licenses: ["MIT License"],
       links: %{key: "MainInABox website", value: "https://mailinabox.email/"},
-      source_url: "https://github.com/ourway/mail_in_a_box",
+      source_url: "https://github.com/ourway/mail_in_a_box"
     ]
   end
 
