@@ -4,14 +4,24 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.1",
+      version: "0.1.2",
+      package: package(),
       description: "MainInABox administration client for elixir",
-      licenses: ["https://spdx.org/licenses/MIT.html"],
-      links: %{key: "MainInABox website", value: "https://mailinabox.email/"},
-      source_url: "https://github.com/ourway/mail_in_a_box",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps()
+    ]
+  end
+
+  defp package do
+    # These are the default files included in the package
+    [
+      name: :main_in_a_box,
+      files: ["lib", "mix.exs", "README*", "config", "test"],
+      maintainers: ["Farsheed Ashouri"],
+      licenses: ["MIT License"],
+      links: %{key: "MainInABox website", value: "https://mailinabox.email/"},
+      source_url: "https://github.com/ourway/mail_in_a_box",
     ]
   end
 
