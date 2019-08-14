@@ -4,7 +4,7 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.2",
+      version: "0.1.3",
       package: package(),
       description: "MainInABox administration client for elixir",
       elixir: "~> 1.9",
@@ -37,7 +37,8 @@ defmodule MailInABox.MixProject do
   defp deps do
     [
       {:jason, ">= 0.0.0"},
-      {:credo, "~> 1.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.0", only: [:dev, :test], runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end
