@@ -2,7 +2,8 @@
 
 ## Description
 
-Mail In A Box is a simple wrapper for (https://mailinabox.email/)[maininabox]
+Mail In A Box is a simple wrapper for
+[MailInABox](https://mailinabox.email?_src=https://github.com/ourway/mail_in_a_box/)
 APIs. 
 
 ## Installation
