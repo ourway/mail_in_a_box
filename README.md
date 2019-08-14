@@ -7,7 +7,7 @@ APIs.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+If (available in Hex)[https://hex.pm/docs/publish], the package can be installed
 by adding `mail_in_a_box` to your list of dependencies in `mix.exs`:
 
 ```elixir
