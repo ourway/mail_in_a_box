@@ -4,7 +4,7 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.6",
+      version: "0.1.7",
       package: package(),
       description: "MainInABox administration client for elixir",
       elixir: "~> 1.9",
@@ -17,7 +17,7 @@ defmodule MailInABox.MixProject do
   defp package do
     # These are the default files included in the package
     [
-      name: :main_in_a_box,
+      name: :mail_in_a_box,
       files: ["lib", "mix.exs", "README*", "config", "test"],
       maintainers: ["Farsheed Ashouri"],
       licenses: ["MIT License"],
