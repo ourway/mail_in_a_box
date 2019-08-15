@@ -13,7 +13,7 @@ Install it by adding `mail_in_a_box` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:mail_in_a_box, "~> 0.1.9"}
+    {:mail_in_a_box, "~> 0.2.0"}
   ]
 end
 ```

@@ -4,7 +4,7 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.9",
+      version: "0.2.0",
       package: package(),
       description: "MainInABox administration client for elixir",
       elixir: "~> 1.9",
