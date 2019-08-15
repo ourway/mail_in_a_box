@@ -4,7 +4,7 @@ defmodule MailInABox.MixProject do
   def project do
     [
       app: :mail_in_a_box,
-      version: "0.1.8",
+      version: "0.1.9",
       package: package(),
       description: "MainInABox administration client for elixir",
       elixir: "~> 1.9",
@@ -41,7 +41,7 @@ defmodule MailInABox.MixProject do
       {:swoosh, "~> 0.23"},
       {:gen_smtp, "~> 0.13"},
       # For Imap commands
-      {:eximap, "~> 0.1.1-dev"},
+      # {:eximap, "~> 0.1.1-dev"},
       # test and development,
       {:credo, "~> 1.0", only: [:dev, :test], runtime: false},
       # docs
