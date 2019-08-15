@@ -18,7 +18,7 @@ defmodule MailInABox.MixProject do
     # These are the default files included in the package
     [
       name: :mail_in_a_box,
-      files: ["lib", "mix.exs", "README*", "config", "test"],
+      files: ["lib", "mix.exs", "README*", "config", "test", "priv/*.eex"],
       maintainers: ["Farsheed Ashouri"],
       licenses: ["MIT License"],
       links: %{"GitHub" => "https://github.com/ourway/mail_in_a_box"}
@@ -37,7 +37,14 @@ defmodule MailInABox.MixProject do
   defp deps do
     [
       {:jason, ">= 0.0.0"},
+      # For sending emails:
+      {:swoosh, "~> 0.23"},
+      {:gen_smtp, "~> 0.13"},
+      # For Imap commands
+      {:eximap, "~> 0.1.1-dev"},
+      # test and development,
       {:credo, "~> 1.0", only: [:dev, :test], runtime: false},
+      # docs
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end

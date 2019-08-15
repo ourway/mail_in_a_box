@@ -21,4 +21,4 @@ erl_crash.dump
 
 # Ignore package tarball (built via "mix hex.build").
 mail_in_a_box-*.tar
-
+config.secret.exs
